@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint Application</title>
+    <script>
+        let p;
+        /**
+         * Obtener el ultimo punto
+         */
+        function getCheckpoint() {
+            fetch("/word", { method: "GET" })
+                .then(data => data.json())
+                .then(data => {
+                    p = data.paragraph;
+                    localStorage.word_idx = parseInt(data.word_idx);
+                    localStorage.paragraph_status = JSON.stringify(data.paragraph_status);
+                    localStorage.last_checkpoint = parseInt(data.checkpoint);
+                    updateParagraph();
+                })
+                .catch(error => console.log(error));
+        }
+        /**
+         * Establecer el punto de control
+         */
+        function setCheckpoint() {
+            fetch("/word", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    word_idx: parseInt(localStorage.word_idx),
+                    paragraph_status: JSON.parse(localStorage.paragraph_status)
+                })
+            })
+                .then(data => data.json())
+                .then(data => {
+                    localStorage.last_checkpoint = parseInt(data.checkpoint);
+                })
+                .catch(error => console.log(error));
+        }
+        /**
+         * Reiniciar
+         */
+        function restart() {
+            fetch("/restart", { method: "GET" })
+                .then(data => window.location.reload())
+                .catch(error => console.log(error));
+        }
+        /**
+         * Actualizar las palabras por estado
+         */
+        function updateParagraph() {
+            document.getElementById("paragraph").innerHTML = "";
+            let status = JSON.parse(localStorage.paragraph_status);
+            let paragraph_modify = "";
+
+            for (let idx = 0; idx < status.length; idx++) {
+                span_class = (!status[idx]) ? "dark" : ((status[idx] == 1) ? "success" : "warning");
+                paragraph_modify += '<span class="badge text-bg-' + span_class + ' mx-1 my-1">' + p[idx] + '</span>';
+            }
+            document.getElementById("paragraph").innerHTML = paragraph_modify;
+            document.getElementById("checkpoint_date").innerHTML = new Date(parseInt(localStorage.last_checkpoint)).toLocaleString('en-GB');
+        }
+        /**
+         * Verificar el formato de palabras de entrada
+         */
+        function seeUpdate() {
+            let input = document.getElementById("word").value;
+
+            if (input.length > 0) {
+                if (input[input.length - 1] == ' ') {
+                    input = input.slice(0, -1);
+
+                    let status = JSON.parse(localStorage.paragraph_status);
+                    let word_idx = parseInt(localStorage.word_idx);
+
+                    status[word_idx] = (input == p[word_idx]) ? 1 : 2;
+                    p[word_idx] = input;
+                    word_idx++;
+
+                    localStorage.paragraph_status = JSON.stringify(status);
+                    localStorage.word_idx = parseInt(word_idx);
+
+                    document.getElementById("word").value = "";
+                    updateParagraph();
+                    setCheckpoint();
+                }
+            }
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body onload="getCheckpoint()">
+    <div class="container mt-4">
+        <div class="row mt-4 text-center">
+            <h6>Last checkpoint: <span id="checkpoint_date" class="badge text-bg-secondary"></span></h6>
+            <h3>Test</h3>
+            <button class="btn btn-outline-danger btn-sm" onclick="restart()">restart test</button>
+            <input type="text" class="form-control my-4" id="word" autofocus>
+            <h4 id="paragraph"></h4>
+        </div>
+    </div>
+    <script>
+        setInterval(_ => { seeUpdate() }, 100);
+    </script>
+</body>
+
+</html>
