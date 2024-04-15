@@ -40,14 +40,17 @@ airflow db init
 **inicializar el webserver de Airflow**
 
 airflow webserver --port 8080
+airflow webserver --port 8080
 
-[Inicializar scheduler](image.png)
+![Inicializar scheduler](img/image.png)
 
-[Loggin](image-1.png)
 
-[Dag](image-2.png)
+![Loggin](img/image-1.png)
 
-[Ejecucion](image-3.png)
+![Dag](img/image-2.png)
 
-[alt text](image-4.png)
+![Ejecucion](img/image-3.png)
+
+![Dag](img/image-4.png)
+
 
