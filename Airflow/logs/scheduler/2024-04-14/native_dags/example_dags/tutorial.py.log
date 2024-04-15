@@ -1,0 +1,137 @@
+[2024-04-14T15:42:10.535-0600] {processor.py:161} INFO - Started process (PID=4069) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:42:10.536-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:42:10.536-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.536-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:42:10.539-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:42:10.615-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.614-0600] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial
+[2024-04-14T15:42:10.618-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.618-0600] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-04-14T15:42:10.619-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.619-0600] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-04-14T15:42:10.620-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.620-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:42:10.623-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.623-0600] {dag.py:3118} INFO - Creating ORM DAG for tutorial
+[2024-04-14T15:42:10.626-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:42:10.626-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:42:10.631-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2024-04-14T15:43:27.256-0600] {processor.py:161} INFO - Started process (PID=4167) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:43:27.258-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:43:27.258-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:43:27.258-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:43:27.261-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:43:27.295-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:43:27.295-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:43:27.301-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:43:27.301-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:43:27.307-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2024-04-14T15:44:55.318-0600] {processor.py:161} INFO - Started process (PID=4266) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:44:55.320-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:44:55.320-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:44:55.320-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:44:55.323-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:44:55.354-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:44:55.354-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:44:55.360-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:44:55.360-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:44:55.366-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:46:17.541-0600] {processor.py:161} INFO - Started process (PID=4368) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:46:17.543-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:46:17.543-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:46:17.543-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:46:17.545-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:46:17.577-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:46:17.577-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:46:17.583-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:46:17.583-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:46:17.589-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:47:03.635-0600] {processor.py:161} INFO - Started process (PID=4420) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:03.636-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:47:03.637-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:03.637-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:03.639-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:03.671-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:03.671-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:47:03.677-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:03.677-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:47:03.682-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:47:50.623-0600] {processor.py:161} INFO - Started process (PID=4478) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:50.624-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:47:50.624-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:50.624-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:50.627-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:47:50.659-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:50.659-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:47:50.665-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:47:50.665-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:47:50.670-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:48:36.712-0600] {processor.py:161} INFO - Started process (PID=4592) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:48:36.714-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:48:36.714-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:48:36.714-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:48:36.717-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:48:36.748-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:48:36.748-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:48:36.754-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:48:36.754-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:48:36.760-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.048 seconds
+[2024-04-14T15:50:03.998-0600] {processor.py:161} INFO - Started process (PID=4705) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:50:04.000-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:50:04.000-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:50:04.000-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:50:04.002-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:50:04.036-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:50:04.036-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:50:04.043-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:50:04.043-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:50:04.049-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2024-04-14T15:51:33.969-0600] {processor.py:161} INFO - Started process (PID=4804) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:51:33.971-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:51:33.971-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:51:33.971-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:51:33.974-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:51:34.006-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:51:34.006-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:51:34.012-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:51:34.012-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:51:34.018-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2024-04-14T15:52:57.868-0600] {processor.py:161} INFO - Started process (PID=4960) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:52:57.869-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:52:57.870-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:52:57.869-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:52:57.872-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:52:57.904-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:52:57.904-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:52:57.910-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:52:57.910-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:52:57.916-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:53:43.955-0600] {processor.py:161} INFO - Started process (PID=5021) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:53:43.957-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:53:43.958-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:53:43.958-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:53:43.960-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:53:43.992-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:53:43.992-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:53:43.998-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:53:43.998-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:53:44.004-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2024-04-14T15:55:51.799-0600] {processor.py:161} INFO - Started process (PID=5186) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:55:51.801-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:55:51.801-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:55:51.801-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:55:51.804-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:55:51.837-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:55:51.837-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:55:51.844-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:55:51.844-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:55:51.849-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2024-04-14T15:57:05.454-0600] {processor.py:161} INFO - Started process (PID=5292) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:57:05.455-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:57:05.456-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:57:05.455-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:57:05.458-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:57:05.491-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:57:05.491-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:57:05.496-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:57:05.496-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:57:05.502-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2024-04-14T15:58:32.811-0600] {processor.py:161} INFO - Started process (PID=5448) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:58:32.813-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:58:32.813-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:58:32.813-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:58:32.815-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:58:32.847-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:58:32.847-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:58:32.853-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:58:32.853-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:58:32.859-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T15:59:17.759-0600] {processor.py:161} INFO - Started process (PID=5498) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:59:17.761-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T15:59:17.761-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:59:17.761-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:59:17.763-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T15:59:17.796-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:59:17.796-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T15:59:17.801-0600] {logging_mixin.py:188} INFO - [2024-04-14T15:59:17.801-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T15:59:17.807-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T16:00:44.938-0600] {processor.py:161} INFO - Started process (PID=5596) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:00:44.940-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T16:00:44.940-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:00:44.940-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:00:44.943-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:00:44.974-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:00:44.974-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T16:00:44.980-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:00:44.980-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T16:00:44.986-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T16:02:11.052-0600] {processor.py:161} INFO - Started process (PID=5693) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:02:11.054-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T16:02:11.054-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:02:11.054-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:02:11.056-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:02:11.088-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:02:11.088-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T16:02:11.094-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:02:11.094-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T16:02:11.100-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-04-14T16:03:49.952-0600] {processor.py:161} INFO - Started process (PID=5846) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:03:49.953-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T16:03:49.954-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:03:49.954-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:03:49.956-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:03:49.989-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:03:49.989-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T16:03:49.995-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:03:49.995-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T16:03:50.002-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.051 seconds
+[2024-04-14T16:05:03.594-0600] {processor.py:161} INFO - Started process (PID=5983) to work on /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:05:03.597-0600] {processor.py:830} INFO - Processing file /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-04-14T16:05:03.597-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:05:03.597-0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:05:03.599-0600] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-04-14T16:05:03.631-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:05:03.631-0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T16:05:03.637-0600] {logging_mixin.py:188} INFO - [2024-04-14T16:05:03.637-0600] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2024-04-13 00:00:00+00:00, run_after=2024-04-14 00:00:00+00:00
+[2024-04-14T16:05:03.643-0600] {processor.py:183} INFO - Processing /Users/felipejimenez/Desktop/AirFlow/.env/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
